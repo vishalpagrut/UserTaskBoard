@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.task-board {
+    display: flex;
+}
+
+.list {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: grab;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    color: #888;
+}
